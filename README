@@ -1,0 +1,17 @@
+He dejedado dos script con las siguientes funcinalidades:
+
+Script denominado proyecto.py:
+	En este script lo que he echo ha sido lo siguiente;
+	He pasado a crear un juego para que el random eliga un numero al azar entre los parametros que he introducido, a continuacion pasará a pedirnos por pantalla mediante los inputs una serie de valores(en este caso 6).
+
+
+	Lo primero que he echo ha sido importar ramdom y le he asignado numeros, ya que lo que quiero en este caso es que me obtenga un numero al azar entre el 1 y el 20. Seguidamente he echo un print que no es necesario pero lo dejo ahí para que muestre cual es el numero que ha cogido al azar para a la hora de probar si funciona o no.
+
+	Despues he pasado ha hacer un bucle en el cual tengo 6 intentos para introducir valores, en este caso, a la hora que introduzcamos un valor, nos lo va a comparar con el numero que ha cogido al azar, si el numero que hemos introducido es menor que el que se ha obtenido en el random, nos va ha salir un print por pantalla indicandonos que el numero que hemos introducido es muy bajo, por lo cual nos dará la opción de seguir probando con un máximo de 6 veces como he indicado en el bucle, en caso contrario, si el numero que hemos introducido es mayor, nos dirá que el número que hemos introducido es muy alto.
+	En caso de que el numero sea igual que el que hemos puesto en el intento, vamos a pasar el intento que hemos realizado a String y en ese momento se imprime por pantalla que ha sido un buen trabajo y tambien saldra en que numero de intento hemos adivinado el numero.
+
+	Por ultimo, si en los 6 intentos el número que hemos introducido es distinto al que se ha obtenido por azar, pasará a mostrarnos por pantalla que el numeor que estaba pensado imprimir seria el que sea(el que se haya cogido al azar).
+
+Script denominado Proyectofinal.py:
+En este caso lo que he echo ha sido añadirle el tkinter al script anterior, la funcionalidad que va a tener este script sera la siguiente;
+Anteriormente nos pedia los valores mediantes inputs, mientras que ahora lo que he echo ha sido que me pida los valores a traves de ventanas las cuales nos indicará que introduzcamos un numero, a la vez en el fichero de al lado nos irá mostrando en azul si el numero es muy alto, muy bajo o si lo hemos acertado, también esta la opcion de que no lo acertemos y nos lo mostrará.
